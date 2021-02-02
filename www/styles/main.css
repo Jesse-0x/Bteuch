@@ -125,7 +125,7 @@ html, body {
 .listintro til{
     position:fixed;   
     top: 2rem;
-    left: 11rem;
+    left: 10rem;
     font-family:  "SF";
     font-size: 40px;
     color: #000000;
@@ -137,7 +137,7 @@ html, body {
 .listintro p{
     position:fixed;   
     top: 5rem;
-    left: 7rem;
+    left: 9.5rem;
     font-family:  "SF";
     font-size: 25px;
     color: #000000;
@@ -191,7 +191,7 @@ html, body {
 #hisMsg {
     position:fixed;   
     top: 3.75rem;
-    left: 28.8rem;
+    left: 26.71rem;
     right: 0;
     bottom: 20.73rem;
     height: auto;
@@ -204,7 +204,7 @@ html, body {
 /* the system message */
 #hisMsg p1 {
     text-align: center;
-    padding-left: 370px;
+    padding-left: 45%;
 }
 
 /* if someone send message */
