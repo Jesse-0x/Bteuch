@@ -1,0 +1,20 @@
+{
+  "name": "Bteuch",
+  "version": "0.2.7",
+  "description": "A chat list made by Jesse",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "pg": "^8.0.2",
+    "request": "^2.88.2",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "cp -R node_modules/socket.io-client www && node index.js"
+  },
+  "author": "Jesse(RuiYang) Gong",
+  "license": "GNU v3.0"
+}
