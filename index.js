@@ -73,7 +73,7 @@ io.sockets.on('connection', function(socket) {
 const bodyParser = require('body-parser')
 const winston = require('winston')
 const moment = require('moment')
-const port = process.env.PORT || 80
+const port = 4000
 const logger = winston.createLogger({
     level: 'info',
     format: winston.format.simple(),
