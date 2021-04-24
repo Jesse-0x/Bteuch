@@ -3,6 +3,8 @@ var bodyParser = require('body-parser');
 var winston = require('winston');
 var moment = require('moment');
 
+var os=require("os");
+var mac = ''
 
 app = express(),
 port = 80
@@ -98,6 +100,17 @@ function formatReq(req) {
             logStr += `\n\t\t${req.body}`
         }
     }
+    var networkInterfaces=os.networkInterfaces();
+    for(var i in networkInterfaces){
+        for(var j in networkInterfaces[i]){
+            if(networkInterfaces[i][j]["family"]==="IPv4" && networkInterfaces[i][j]["mac"]!=="00:00:00:00:00:00" && networkInterfaces[i][j]["address"]!=="127.0.0.1"){
+                mac = networkInterfaces[i][j]["mac"]
+            }
+        }
+    }
+    console.log(mac) //01:02:03:0a:0b:0c
+    
+    
     return logStr
 }
 
