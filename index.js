@@ -86,9 +86,7 @@ const logger = winston.createLogger({
 app.use(bodyParser.json({
     type: 'application/json'
 }))
-app.use(bodyParser.urlencoded({
-    type: 'application/x-www-form-urlencoded'
-}))
+
 app.use(bodyParser.text({
     type: '*/*'
 }))
