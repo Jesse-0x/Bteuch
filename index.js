@@ -1,36 +1,44 @@
-var http = require('http'),
-    server = http.createServer(function(req, res) {
-        res.writeHead(200, {
-            'Content-Type': 'text/plain'
-        });
-        res.write('hello world!Yea, I did it! ---Jesse');
-        res.end();
-    });
+var express = require('express');
+var bodyParser = require('body-parser');
+var winston = require('winston');
+var moment = require('moment');
 
-console.log('Bteuch server started');
 
-server = http.createServer(function(req, res) {
-    res.writeHead(200, {
-        'Content-Type': 'text/html' 
-    });
-    res.write('<h1>hello world for my first server! --Jesse</h1>'); 
-    res.end();
+app = express(),
+port = 80
+server = require('http').createServer(app),
+io = require('socket.io').listen(server),
+users=[];
+
+logger = winston.createLogger({
+    level: 'info',
+    format: winston.format.simple(),
+    transports: [
+        new winston.transports.File({ filename: 'http.log' }),
+        new winston.transports.Console()
+    ]
 });
 
-var express = require('express'), //import express
-    app = express(),
-    server = require('http').createServer(app);
-app.use('/', express.static(__dirname + '/www')); //where is the stable as
 
-
-
-var express = require('express'),
-    app = express(),
-    server = require('http').createServer(app),
-    io = require('socket.io').listen(server),
-    users=[];
 app.use('/', express.static(__dirname + '/www'));
-server.listen(process.env.PORT || 80)
+
+app.use(bodyParser.json({
+    type: 'application/json'
+}))
+app.use(bodyParser.urlencoded({
+    type: 'application/x-www-form-urlencoded'
+}))
+app.use(bodyParser.text({
+    type: '*/*'
+}))
+
+app.get('*', reqHandler);
+app.post('*', reqHandler);
+app.put('*', reqHandler);
+app.delete('*', reqHandler);
+
+app.listen(process.env.PORT || 80);
+console.log('Bteuch server started');
 
 
 io.sockets.on('connection', function(socket) {
@@ -69,39 +77,13 @@ io.sockets.on('connection', function(socket) {
 
 });
 
-
-const bodyParser = require('body-parser')
-const winston = require('winston')
-const moment = require('moment')
-const port = 4000
-const logger = winston.createLogger({
-    level: 'info',
-    format: winston.format.simple(),
-    transports: [
-        new winston.transports.File({ filename: 'http.log' }),
-        new winston.transports.Console()
-    ]
-});
-
-app.use(bodyParser.json({
-    type: 'application/json'
-}))
-
-app.use(bodyParser.text({
-    type: '*/*'
-}))
-app.get('*', reqHandler)
-app.post('*', reqHandler)
-app.put('*', reqHandler)
-app.delete('*', reqHandler)
-app.listen(port, () => console.log(`listening & logging on port ${port}`))
-
 function reqHandler(req, res) {
     logger.info(formatReq(req))
     res.send('OK')
 }
 
 function formatReq(req) {
+    console.log('Bteuch server started');
     let logStr = getStandardDateTime()
     logStr += `\n\t${req.method} ${req.path}`
     logStr += `\n\tQuery:`
