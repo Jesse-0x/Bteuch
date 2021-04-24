@@ -39,7 +39,7 @@ app.post('*', reqHandler);
 app.put('*', reqHandler);
 app.delete('*', reqHandler);
 
-app.listen(process.env.PORT || 80);
+server.listen(process.env.PORT || 80);
 console.log('Bteuch server started');
 
 
