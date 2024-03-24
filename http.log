@@ -1,0 +1,207 @@
+info: 2024-03-24 00:24:16
+	GET /favicon.ico
+	Query:
+	Header:
+		host: localhost
+		connection: keep-alive
+		sec-ch-ua: "Not(A:Brand";v="24", "Chromium";v="122"
+		dnt: 1
+		sec-ch-ua-mobile: ?0
+		user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+		sec-ch-ua-platform: "macOS"
+		accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+		sec-fetch-site: same-origin
+		sec-fetch-mode: no-cors
+		sec-fetch-dest: image
+		referer: http://localhost/
+		accept-encoding: gzip, deflate, br
+		accept-language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+		cookie: username-localhost-8888="2|1:0|10:1710625971|23:username-localhost-8888|44:YjNjMTNhNTJhYTIxNGNlYTkwZjk1YzY2MzkxM2JhYTE=|b80cefc2c9aed71221a4e4fd3ffc99ad9339fc9a4a715f6c1348fe4f61d8299c"; _xsrf=2|b9d0f65c|8aefd3af0751d812ba461f81bd4da64d|1710625971
+info: 2024-03-24 00:25:48
+	GET /favicon.ico
+	Query:
+	Header:
+		host: localhost
+		connection: keep-alive
+		sec-ch-ua: "Not(A:Brand";v="24", "Chromium";v="122"
+		dnt: 1
+		sec-ch-ua-mobile: ?0
+		user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+		sec-ch-ua-platform: "macOS"
+		accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+		sec-fetch-site: same-origin
+		sec-fetch-mode: no-cors
+		sec-fetch-dest: image
+		referer: http://localhost/
+		accept-encoding: gzip, deflate, br
+		accept-language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+		cookie: username-localhost-8888="2|1:0|10:1710625971|23:username-localhost-8888|44:YjNjMTNhNTJhYTIxNGNlYTkwZjk1YzY2MzkxM2JhYTE=|b80cefc2c9aed71221a4e4fd3ffc99ad9339fc9a4a715f6c1348fe4f61d8299c"; _xsrf=2|b9d0f65c|8aefd3af0751d812ba461f81bd4da64d|1710625971
+		if-none-match: W/"2-nOO9QiTIwXgNtWtBJezz8kv3SLc"
+info: 2024-03-24 00:26:00
+	GET /favicon.ico
+	Query:
+	Header:
+		host: a28f-12-51-221-141.ngrok-free.app
+		user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+		accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+		accept-encoding: gzip, deflate, br
+		accept-language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+		dnt: 1
+		referer: https://a28f-12-51-221-141.ngrok-free.app/
+		sec-ch-ua: "Not(A:Brand";v="24", "Chromium";v="122"
+		sec-ch-ua-mobile: ?0
+		sec-ch-ua-platform: "macOS"
+		sec-fetch-dest: image
+		sec-fetch-mode: no-cors
+		sec-fetch-site: same-origin
+		x-forwarded-for: 12.51.221.141
+		x-forwarded-host: a28f-12-51-221-141.ngrok-free.app
+		x-forwarded-proto: https
+info: 2024-03-24 00:26:12
+	GET /favicon.ico
+	Query:
+	Header:
+		host: localhost
+		connection: keep-alive
+		sec-ch-ua: "Not(A:Brand";v="24", "Chromium";v="122"
+		dnt: 1
+		sec-ch-ua-mobile: ?0
+		user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+		sec-ch-ua-platform: "macOS"
+		accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+		sec-fetch-site: same-origin
+		sec-fetch-mode: no-cors
+		sec-fetch-dest: image
+		referer: http://localhost/
+		accept-encoding: gzip, deflate, br
+		accept-language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+		cookie: username-localhost-8888="2|1:0|10:1710625971|23:username-localhost-8888|44:YjNjMTNhNTJhYTIxNGNlYTkwZjk1YzY2MzkxM2JhYTE=|b80cefc2c9aed71221a4e4fd3ffc99ad9339fc9a4a715f6c1348fe4f61d8299c"; _xsrf=2|b9d0f65c|8aefd3af0751d812ba461f81bd4da64d|1710625971
+		if-none-match: W/"2-nOO9QiTIwXgNtWtBJezz8kv3SLc"
+info: 2024-03-24 00:26:14
+	GET /favicon.ico
+	Query:
+	Header:
+		host: a28f-12-51-221-141.ngrok-free.app
+		user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+		accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+		accept-encoding: gzip, deflate, br
+		accept-language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+		dnt: 1
+		if-none-match: W/"2-nOO9QiTIwXgNtWtBJezz8kv3SLc"
+		referer: https://a28f-12-51-221-141.ngrok-free.app/
+		sec-ch-ua: "Not(A:Brand";v="24", "Chromium";v="122"
+		sec-ch-ua-mobile: ?0
+		sec-ch-ua-platform: "macOS"
+		sec-fetch-dest: image
+		sec-fetch-mode: no-cors
+		sec-fetch-site: same-origin
+		x-forwarded-for: 12.51.221.141
+		x-forwarded-host: a28f-12-51-221-141.ngrok-free.app
+		x-forwarded-proto: https
+info: 2024-03-24 00:26:16
+	GET /favicon.ico
+	Query:
+	Header:
+		host: a28f-12-51-221-141.ngrok-free.app
+		user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+		accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+		accept-encoding: gzip, deflate, br
+		accept-language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+		cache-control: no-cache
+		dnt: 1
+		pragma: no-cache
+		referer: https://a28f-12-51-221-141.ngrok-free.app/
+		sec-ch-ua: "Not(A:Brand";v="24", "Chromium";v="122"
+		sec-ch-ua-mobile: ?0
+		sec-ch-ua-platform: "macOS"
+		sec-fetch-dest: image
+		sec-fetch-mode: no-cors
+		sec-fetch-site: same-origin
+		x-forwarded-for: 12.51.221.141
+		x-forwarded-host: a28f-12-51-221-141.ngrok-free.app
+		x-forwarded-proto: https
+info: 2024-03-24 00:26:32
+	GET /favicon.ico
+	Query:
+	Header:
+		host: a28f-12-51-221-141.ngrok-free.app
+		user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+		accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+		accept-encoding: gzip, deflate, br
+		accept-language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+		dnt: 1
+		if-none-match: W/"2-nOO9QiTIwXgNtWtBJezz8kv3SLc"
+		referer: https://a28f-12-51-221-141.ngrok-free.app/
+		sec-ch-ua: "Not(A:Brand";v="24", "Chromium";v="122"
+		sec-ch-ua-mobile: ?0
+		sec-ch-ua-platform: "macOS"
+		sec-fetch-dest: image
+		sec-fetch-mode: no-cors
+		sec-fetch-site: same-origin
+		x-forwarded-for: 12.51.221.141
+		x-forwarded-host: a28f-12-51-221-141.ngrok-free.app
+		x-forwarded-proto: https
+info: 2024-03-24 00:27:08
+	GET /favicon.ico
+	Query:
+	Header:
+		host: localhost
+		connection: keep-alive
+		pragma: no-cache
+		cache-control: no-cache
+		sec-ch-ua: "Not(A:Brand";v="24", "Chromium";v="122"
+		dnt: 1
+		sec-ch-ua-mobile: ?0
+		user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+		sec-ch-ua-platform: "macOS"
+		accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+		sec-fetch-site: same-origin
+		sec-fetch-mode: no-cors
+		sec-fetch-dest: image
+		referer: http://localhost/
+		accept-encoding: gzip, deflate, br
+		accept-language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+		cookie: username-localhost-8888="2|1:0|10:1710625971|23:username-localhost-8888|44:YjNjMTNhNTJhYTIxNGNlYTkwZjk1YzY2MzkxM2JhYTE=|b80cefc2c9aed71221a4e4fd3ffc99ad9339fc9a4a715f6c1348fe4f61d8299c"; _xsrf=2|b9d0f65c|8aefd3af0751d812ba461f81bd4da64d|1710625971
+info: 2024-03-24 00:27:13
+	GET /favicon.ico
+	Query:
+	Header:
+		host: a28f-12-51-221-141.ngrok-free.app
+		user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+		accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+		accept-encoding: gzip, deflate, br
+		accept-language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+		dnt: 1
+		if-none-match: W/"2-nOO9QiTIwXgNtWtBJezz8kv3SLc"
+		referer: https://a28f-12-51-221-141.ngrok-free.app/
+		sec-ch-ua: "Not(A:Brand";v="24", "Chromium";v="122"
+		sec-ch-ua-mobile: ?0
+		sec-ch-ua-platform: "macOS"
+		sec-fetch-dest: image
+		sec-fetch-mode: no-cors
+		sec-fetch-site: same-origin
+		x-forwarded-for: 12.51.221.141
+		x-forwarded-host: a28f-12-51-221-141.ngrok-free.app
+		x-forwarded-proto: https
+info: 2024-03-24 00:27:15
+	GET /favicon.ico
+	Query:
+	Header:
+		host: a28f-12-51-221-141.ngrok-free.app
+		user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+		accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+		accept-encoding: gzip, deflate, br
+		accept-language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+		cache-control: no-cache
+		dnt: 1
+		pragma: no-cache
+		referer: https://a28f-12-51-221-141.ngrok-free.app/
+		sec-ch-ua: "Not(A:Brand";v="24", "Chromium";v="122"
+		sec-ch-ua-mobile: ?0
+		sec-ch-ua-platform: "macOS"
+		sec-fetch-dest: image
+		sec-fetch-mode: no-cors
+		sec-fetch-site: same-origin
+		x-forwarded-for: 12.51.221.141
+		x-forwarded-host: a28f-12-51-221-141.ngrok-free.app
+		x-forwarded-proto: https
